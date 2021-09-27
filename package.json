@@ -20,6 +20,7 @@
 	},
 	"scripts": {
 		"lint": "eslint --ext=js,mjs .",
+		"postlint": "evalmd README.md",
 		"pretest": "npm run lint",
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"tests-esm": "nyc node test/index.mjs",
@@ -54,6 +55,7 @@
 		"@ljharb/eslint-config": "^18.0.0",
 		"aud": "^1.1.5",
 		"eslint": "^7.32.0",
+		"evalmd": "^0.0.19",
 		"functions-have-names": "^1.2.2",
 		"has-strict-mode": "^1.0.1",
 		"nyc": "^10.3.2",
