@@ -1,0 +1,34 @@
+{
+	"name": "string.prototype.lastindexof",
+	"version": "0.0.0",
+	"description": "An ES-spec-compliant `String.prototype.lastIndexOf`shim/polyfill/replacement that works as far down as ES3.",
+	"main": "index.js",
+	"exports": {
+		".": "./index.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/es-shims/String.prototype.lastIndexOf.git"
+	},
+	"keywords": [
+		"javascript",
+		"ecmascript",
+		"polyfill",
+		"shim",
+		"string",
+		"lastindexof",
+		"indexof",
+		"index",
+		"es-shim API"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/es-shims/String.prototype.lastIndexOf/issues"
+	},
+	"homepage": "https://github.com/es-shims/String.prototype.lastIndexOf#readme"
+}
