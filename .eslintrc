@@ -1,0 +1,19 @@
+{
+	"root": true,
+
+	"extends": "@ljharb",
+
+	"rules": {
+		"id-length": "off",
+		"new-cap": ["error", {
+			"capIsNewExceptions": [
+				"GetIntrinsic",
+				"RequireObjectCoercible",
+				"ToInteger",
+				"ToNumber",
+				"ToString",
+			],
+		}],
+		"operator-linebreak": ["error", "before"],
+	},
+}
