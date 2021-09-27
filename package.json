@@ -27,7 +27,9 @@
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"tests-esm": "nyc node test/index.mjs",
 		"test": "npm run tests-only && npm run tests-esm",
-		"posttest": "aud --production"
+		"posttest": "aud --production",
+		"version": "auto-changelog && git add CHANGELOG.md",
+		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
 	"repository": {
 		"type": "git",
@@ -56,6 +58,7 @@
 	"devDependencies": {
 		"@ljharb/eslint-config": "^18.0.0",
 		"aud": "^1.1.5",
+		"auto-changelog": "^2.3.0",
 		"eslint": "^7.32.0",
 		"evalmd": "^0.0.19",
 		"functions-have-names": "^1.2.2",
@@ -66,5 +69,13 @@
 	},
 	"testling": {
 		"files": "test/shimmed.js"
+	},
+	"auto-changelog": {
+		"output": "CHANGELOG.md",
+		"template": "keepachangelog",
+		"unreleased": false,
+		"commitLimit": false,
+		"backfillLimit": false,
+		"hideCredit": true
 	}
 }
