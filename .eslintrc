@@ -9,7 +9,7 @@
 			"capIsNewExceptions": [
 				"GetIntrinsic",
 				"RequireObjectCoercible",
-				"ToInteger",
+				"ToIntegerOrInfinity",
 				"ToNumber",
 				"ToString",
 			],
