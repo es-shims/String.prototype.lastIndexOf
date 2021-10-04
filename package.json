@@ -53,7 +53,7 @@
 	},
 	"homepage": "https://github.com/es-shims/String.prototype.lastIndexOf#readme",
 	"dependencies": {
-		"es-abstract": "^1.19.0"
+		"es-abstract": "^1.19.1"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^18.0.0",
