@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/es-shims/String.prototype.lastIndexOf/compare/v1.0.1...v1.0.2) - 2022-11-03
+
+### Commits
+
+- [actions] reuse common workflows [`44ec430`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/44ec430931bf21a87dd025a177b7276537f3d51a)
+- [meta] use `npmignore` to autogenerate an npmignore file [`2c0fae3`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/2c0fae3482e5aec4bbe0dbf8d88b347e5cb34f5d)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `functions-have-names`, `tape` [`cca29ed`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/cca29edf627e0a4a455443caa5f47fb50d73b3d2)
+- [actions] update codecov uploader [`bb99fd1`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/bb99fd16ca71a1870257b2dc135752e937823e5c)
+- [actions] update rebase action to use reusable workflow [`837f7a7`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/837f7a7e78a49216df62fa3107689db63d56d21a)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `safe-publish-latest`, `tape` [`5d0cd20`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/5d0cd2084b2d8b014e79e1c03bfc1b29bac48f8a)
+- [Deps] update `es-abstract` [`063dcea`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/063dcea87987704a852c5fff36f63ee1e785e528)
+- [Tests] use `call-bind` [`22a2e1c`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/22a2e1c005b0cebb60af0f2aafb2b20d0e4347dc)
+- [Tests] add `@es-shims/api` [`8ce6a16`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/8ce6a16f78f879098fcacd406391913936667965)
+- [Deps] update `es-abstract` [`d8074fb`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/d8074fb9f43760147bd7414107aa62856dd02d5b)
+- [actions] update workflows [`ef728b4`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/ef728b4220cd5be775e1721e9d9c86291659a12f)
+
 ## [v1.0.1](https://github.com/es-shims/String.prototype.lastIndexOf/compare/v1.0.0...v1.0.1) - 2021-09-30
 
 ### Commits
