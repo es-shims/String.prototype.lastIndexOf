@@ -1,10 +1,10 @@
 'use strict';
 
-var RequireObjectCoercible = require('es-abstract/2021/RequireObjectCoercible');
-var ToIntegerOrInfinity = require('es-abstract/2021/ToIntegerOrInfinity');
-var ToNumber = require('es-abstract/2021/ToNumber');
-var ToString = require('es-abstract/2021/ToString');
-var clamp = require('es-abstract/2021/clamp');
+var RequireObjectCoercible = require('es-abstract/2023/RequireObjectCoercible');
+var ToIntegerOrInfinity = require('es-abstract/2023/ToIntegerOrInfinity');
+var ToNumber = require('es-abstract/2023/ToNumber');
+var ToString = require('es-abstract/2023/ToString');
+var clamp = require('es-abstract/2023/clamp');
 
 var $isNaN = require('es-abstract/helpers/isNaN');
 
