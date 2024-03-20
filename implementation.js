@@ -1,6 +1,6 @@
 'use strict';
 
-var RequireObjectCoercible = require('es-abstract/2023/RequireObjectCoercible');
+var RequireObjectCoercible = require('es-object-atoms/RequireObjectCoercible');
 var ToIntegerOrInfinity = require('es-abstract/2023/ToIntegerOrInfinity');
 var ToNumber = require('es-abstract/2023/ToNumber');
 var ToString = require('es-abstract/2023/ToString');
