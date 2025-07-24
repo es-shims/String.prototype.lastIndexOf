@@ -7,8 +7,8 @@
 		"id-length": "off",
 		"new-cap": ["error", {
 			"capIsNewExceptions": [
-				"GetIntrinsic",
 				"RequireObjectCoercible",
+				"StringLastIndexOf",
 				"ToIntegerOrInfinity",
 				"ToNumber",
 				"ToString",
