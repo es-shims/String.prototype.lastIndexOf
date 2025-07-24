@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.5](https://github.com/es-shims/String.prototype.lastIndexOf/compare/v1.0.4...v1.0.5) - 2025-07-24
+
+### Commits
+
+- [Refactor] update algorithm to match latest spec [`93d3b32`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/93d3b326a6c4fdd7675fdd3003bcc2f836172f00)
+- [Deps] update `es-abstract`, `es-object-atoms` [`ce0b0c5`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/ce0b0c5ec9ed1ff1af4660d19e5ee374898c232a)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `auto-changelog`, `call-bind`, `has-strict-mode`, `tape` [`1ded1ff`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/1ded1ff55fa9ddf6f8552726b491adc665eb9b93)
+- [Tests] replace `aud` with `npm audit` [`e80cd32`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/e80cd32963f355f479222ce1d50ea04c00a2ee5d)
+- [Dev Deps] add missing peer dep [`e412795`](https://github.com/es-shims/String.prototype.lastIndexOf/commit/e412795da00181a18128d46fee6030f69d7acb24)
+
 ## [v1.0.4](https://github.com/es-shims/String.prototype.lastIndexOf/compare/v1.0.3...v1.0.4) - 2024-03-20
 
 ### Commits
